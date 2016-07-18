@@ -1,0 +1,146 @@
+
+body {
+	background: #2f2f2f;
+	color: white;
+	font-family: sans-serif;
+}
+
+
+canvas {
+	background: white;
+	float: right;
+	cursor: crosshair;
+	margin-right: 50px;
+	margin-top: 25px;
+
+}
+
+p {
+	background-color: #00b300;
+	border-radius: 8px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+
+
+#colorDisplay {
+	margin-top: 50px;
+}
+
+#pets {
+	position: absolute;
+	pointer-events: none;
+	opacity: .5;
+	left: 400px;
+	top: 100px;
+}
+
+.color {
+	width: 80px;
+	height: 80px;
+	border-radius: 80px;
+	margin: 1px auto;
+	border: 5px solid white;
+	background-color: black;
+}
+
+.sliders {
+	margin: 20px auto;
+	width: 150px;
+	
+	display: block;
+}
+
+#half1 {
+	
+	width: 200px;
+	float: left;
+	margin-left: 50px;
+	overflow: auto;
+	display: inline;
+}
+
+#half1 button {
+	height: 2em;
+	width: 40%;
+	text-align: center;
+	border: none;
+	border-radius: 10px;
+	color: white;
+	background-color: #00b300;
+	margin-left: 6%;
+	font-size: 1.5em;
+	box-shadow: 0 10px #006600;
+
+}
+#half1 button:hover {
+	background-color: #009900;
+}
+#half1 button:active {
+	background-color: #009900;
+	box-shadow: 0 5px #27496d;
+	transform: translateY(5px);
+}
+
+
+#half1 p {
+	font-size: 1.2em;
+	text-align: center;
+
+}
+
+
+#half2 {
+	width: 600px;
+	float: right;
+	margin-top: 10px;
+	margin-right: 50px;
+	overflow: auto;
+	display: inline;
+	padding-bottom: 10px;
+}
+
+#half2 button {
+	height: 2.5em;
+	width: 30%;
+	text-align: center;
+	border: none;
+	border-radius: 10px;
+	color: white;
+	background-color: #00b300;
+	margin-left: 2.5%;
+	font-size: 1.5em;
+	box-shadow: 0 10px #006600;
+}
+#half2 button:hover {
+	background-color: #009900;
+}
+#half2 button:active {
+	background-color: #009900;
+	box-shadow: 0 5px #27496d;
+	transform: translateY(5px);
+}
+.op {
+	margin-top: 30px;
+	margin-left: auto;
+}
+/* * * * * 
+for palet change
+.addPalet {
+	width: 200px;
+	height: 200px;
+	background: orange;
+}
+
+.colorSmall {
+	width: 30px;
+	height: 30px;
+	background: blue;
+	border-radius: 30px;
+	display: inline-block;
+	float: left;
+}
+* * * * */
+
+
+

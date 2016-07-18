@@ -1,0 +1,92 @@
+
+<html>
+
+<html>
+
+<head>
+<link rel="stylesheet" href="style.css" \>
+
+
+</head>
+
+<body>
+<div id="half1">
+<!--animal choices-->
+<div id="animalChoices">
+	<p>Choose an animal:</p>
+	<button class="animal" class="dog">dog</button>
+	<button class="animal" class="cat">cat</button><br /><br />
+	<button class="animal" class="bird">bird</button>
+	<button class="animal" class="horse">horse</button>
+</div>
+
+			<!--opacity slider-->
+			<div class="op">
+				<label for="opac">Opacity</label>
+				<input id="opac" name="opac" type="range" min=0 max=100 value=100>
+			</div>
+
+	<div id="colorDisplay">
+		<!--color display-->
+		<div class="color"></div>
+		<!--color sliders-->
+		<div class="sliders">
+			<label for="red">R</label>
+			<input id="red" name="red" type="range" min=0 max=255 value=0>
+
+			<label for="green">G</label>
+			<input id="green" name="green" type="range" min=0 max=255 value=0>
+
+			<label for="blue">B</label>
+			<input id="blue" name="blue" type="range" min=0 max=255 value=0>
+		</div> <!--slider end-->
+	</div> <!--color end-->
+</div> <!--half1 end-->	
+
+	<!--where pic shows up-->
+	<div id="pets" class="draggable"></div>
+
+<div id="half2">
+	<div id="picButtons">
+		<!--picture buttons-->
+			<button id="movePic">move image</button>
+			<button id="trace">trace</button>
+			<button id="c">clear image</button>
+
+	</div>
+</div>
+
+
+	<!--DRAW-->
+	<canvas width="600" height="400"><</canvas>
+
+
+
+	<!--New Palet Colors-->
+	<div class="addPalet"></div>
+
+
+
+	<!--<button id="newColorBtn">NEW COLOR</button>-->
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+
+
+
+	<script src="app.js"></script>
+
+
+  <script src="https://code.jquery.com/ui/1.12.0/jquery-ui.js"></script>
+  <script>
+  $( function() {
+    $( ".draggable" ).draggable();
+  } );
+  </script>
+
+
+</body>
+
+</html>
+
+
+</html>
