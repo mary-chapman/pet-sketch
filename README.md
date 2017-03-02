@@ -1,2 +1,4 @@
 # pet_sketch
-A paint program where you can sketch animals
+A paint program that uses the Flickr api to upload a photo based on one of the four categories: dog, cat, bird, or horse.  The user can then trace whichever animal is chosen.  
+
+
